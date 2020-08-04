@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MS.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:MS.WebApi.Filters.ApiResultFilter">
+            <summary>
+            对返回值又包了一层，status是状态码，data是数据
+            </summary>
+        </member>
+        <member name="T:MS.WebApi.SwaggerHelp.CustomRouteAttribute">
+            <summary>
+            自定义路由 /api/{version}/[controler]/[action]
+            </summary>
+        </member>
+        <member name="P:MS.WebApi.SwaggerHelp.CustomRouteAttribute.GroupName">
+            <summary>
+            分组名称,是来实现接口 IApiDescriptionGroupNameProvider
+            </summary>
+        </member>
+        <member name="M:MS.WebApi.SwaggerHelp.CustomRouteAttribute.#ctor(MS.WebApi.SwaggerHelp.ApiVersions,System.String)">
+            <summary>
+            自定义版本+路由构造函数，继承基类路由
+            </summary>
+            <param name="version"></param>
+            <param name="actionName"></param>
+        </member>
+    </members>
+</doc>

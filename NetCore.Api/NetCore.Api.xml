@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NetCore.Api</name>
+    </assembly>
+    <members>
+        <member name="M:NetCore.Api.Controllers.SecurityController.Login(System.String,System.String)">
+            <summary>
+            登录验证
+            </summary>
+            <param name="Name">用户名</param>
+            <param name="Pwd">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:NetCore.Api.Controllers.V1.DefaultController.Get">
+            <summary>
+            获取名字
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NetCore.Api.Controllers.V2.DefaultController.Get">
+            <summary>
+            获取名字
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:NetCore.Api.SwaggerHelp.CustomRouteAttribute">
+            <summary>
+            自定义路由 /api/{version}/[controler]/[action]
+            </summary>
+        </member>
+        <member name="P:NetCore.Api.SwaggerHelp.CustomRouteAttribute.GroupName">
+            <summary>
+            分组名称,是来实现接口 IApiDescriptionGroupNameProvider
+            </summary>
+        </member>
+        <member name="M:NetCore.Api.SwaggerHelp.CustomRouteAttribute.#ctor(NetCore.Api.SwaggerHelp.CustomApiVersion.ApiVersions,System.String)">
+            <summary>
+            自定义版本+路由构造函数，继承基类路由
+            </summary>
+            <param name="version"></param>
+            <param name="actionName"></param>
+        </member>
+    </members>
+</doc>

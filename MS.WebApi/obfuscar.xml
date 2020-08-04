@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Obfuscator>
+  <!--InPath即输入路径，"."表示从当前路径开始找，项目编译完，我会使用CD $(TargetDir)命令跳到当前输出目标目录-->
+  <Var name="InPath" value="." />
+  <!--var开头的节点都是混淆配置，obfuscar还有好多配置，但是有些配置开启后会影响代码功能，需要自己混淆后再测试一遍功能，以上我的配置不影响代码功能，已经自行测试过了-->
+  <Var name="OutPath" value=".\Obfuscator_Output" />
+  <Var name="UseUnicodeNames" value="true" />
+
+  <!--Module file="$(InPath)\MS.Services.dll"这行意思就是，将编译完成后输出目录下的MS.Services.dll进行混淆（混淆后会生成在Obfuscator_Output文件夹中）-->
+  <Module file="$(InPath)\MS.Services.dll" />
+  <Module file="$(InPath)\MS.Component.Jwt.dll" />
+  <Module file="$(InPath)\MS.Component.Aop.dll" />
+</Obfuscator>
+
+<!-- 更多配置 https://docs.obfuscar.com/getting-started/configuration.html-->
