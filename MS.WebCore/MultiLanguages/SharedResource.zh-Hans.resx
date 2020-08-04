@@ -121,27 +121,27 @@
     <value>{0}不存在！</value>
   </data>
   <data name="DataAnnotation_ErrorMessage_AccountRegular" xml:space="preserve">
-    <value>只能包含字符串、數字和下劃線</value>
+    <value>只能包含字符串、数字和下划线</value>
   </data>
   <data name="DataAnnotation_ErrorMessage_Required" xml:space="preserve">
     <value>{0}必填</value>
   </data>
   <data name="DataAnnotation_ErrorMessage_StringLength" xml:space="preserve">
-    <value>不能超過{0}個字符</value>
+    <value>不能超过{0}个字符</value>
   </data>
   <data name="LoginViewModel_DisplayName_Account" xml:space="preserve">
-    <value>用戶名</value>
+    <value>用户名</value>
   </data>
   <data name="LoginViewModel_DisplayName_Password" xml:space="preserve">
-    <value>密碼</value>
+    <value>密码</value>
   </data>
   <data name="LoginViewModel_ServiceError_LoginError" xml:space="preserve">
-    <value>用戶名或密碼錯誤！</value>
+    <value>用户名或密码错误！</value>
   </data>
   <data name="LoginViewModel_ServiceError_UserDisabled" xml:space="preserve">
-    <value>用戶名失效，請聯系管理員！</value>
+    <value>用户名失效，请联系管理员！</value>
   </data>
   <data name="LoginViewModel_ServiceError_UserLocked" xml:space="preserve">
-    <value>用戶被鎖定，請{0}分鐘後再試！</value>
+    <value>用户被锁定，请{0}分钟后再试！</value>
   </data>
 </root>
